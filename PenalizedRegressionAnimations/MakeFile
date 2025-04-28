@@ -1,0 +1,5 @@
+SCENE=Episode1Intro
+FILE=animations/episode1_intro_to_regression.py
+
+episode1:
+	manim -pqh $(FILE) $(SCENE)
